@@ -58,7 +58,7 @@ hoisting();
 Above code is interpreted as :
 ```javascript
 function hoisting() {
-    var a;
+    var i;
     console.log(i); // undefined 
     for (i = 0; i < 2 ; i++) {
         console.log(i); // 0, 1
